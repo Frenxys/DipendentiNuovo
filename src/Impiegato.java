@@ -21,7 +21,7 @@ public class Impiegato extends Dipendente{
 
 	@Override
 	public String toString() {
-		return "Impiegato [ufficio=" + ufficio + ", toString()=" + super.toString() + "]";
+		return "Impiegato [ufficio=" + ufficio + "," + super.toString() + "]";
 	}
 
 	public String getUfficio() {

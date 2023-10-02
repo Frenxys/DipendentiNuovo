@@ -32,7 +32,7 @@ public class Docente extends Dipendente{
 	}
 	@Override
 	public String toString() {
-		return "Docente [ruolo=" + ruolo + ", disciplina=" + disciplina + ", toString()=" + super.toString() + "]";
+		return "Docente [ruolo=" + ruolo + ", disciplina=" + disciplina + "," + super.toString() + "]";
 	}
 	
 }
